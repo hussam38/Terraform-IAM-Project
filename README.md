@@ -51,10 +51,10 @@ This example demonstrates a pattern: using a declarative YAML file (`users-roles
 
 ```yaml
 users:
-	- username: john
-		roles: [readonly, developer]
-	- username: jane
-		roles: [admin, auditor]
+  - username: john
+	roles: [readonly, developer]
+  - username: jane
+	roles: [admin, auditor]
 ```
 
 ## Security & notes
