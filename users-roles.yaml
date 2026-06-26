@@ -1,0 +1,10 @@
+users:
+  # users[0], user["john"]
+  - username: john  
+    roles: [readonly, developer]
+  # users[1], user["jane"]
+  - username: jane
+    roles: [admin, auditor]
+  # users[2], user["lauro"]
+  - username: lauro
+    roles: [readonly]
