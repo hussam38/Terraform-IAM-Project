@@ -2,9 +2,13 @@
 
 [![Terraform](https://img.shields.io/badge/Terraform-configuration-blue?logo=terraform)](https://www.terraform.io) [![Status](https://img.shields.io/badge/status-example-yellow)](https://github.com) [![License](https://img.shields.io/badge/license-hussam38-red)](https://choosealicense.com)
 
-This Project is an AWS IAM example that maps users to specific IAM roles using the data in `users-roles.yaml`.
+## Managing IAM Users and Roles with Terraform
 
-Summary: the config reads a YAML file of users and assigned roles, creates IAM users and login profiles, creates IAM roles with trust policies that allow the assigned users to assume those roles, and attaches AWS managed policies to roles.
+This project is centered around managing AWS Identity and Access Management (IAM) users and roles using Terraform and YAML. The primary objective is to automate the process of creating users, assigning roles, and ensuring secure role assignment. User information, including usernames and roles, will be stored in a YAML file, while role information will be managed in Terraform. An important aspect of this project is to ensure that roles can only be assumed by the users assigned to them, adding an extra layer of security.
+
+## Project Overview
+
+<img src="project_arch.png" alt="project arch" width="600"/>
 
 ## Quick start (clone the repo)
 
